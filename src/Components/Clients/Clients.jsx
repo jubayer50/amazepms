@@ -84,7 +84,7 @@ const Clients = () => {
 
         {/* Marquee */}
 
-        <Marquee speed={35} gradient={false}>
+        <Marquee speed={38} gradient={false}>
           {logos.map((logo, index) => (
             <div
               key={index}
