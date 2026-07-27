@@ -2,21 +2,25 @@
 
 import { Button } from "@heroui/react";
 import { useState } from "react";
+import MyNavLink from "./MyNavLink";
+import Image from "next/image";
+import Logo from "@/assets/logo.png";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const links = (
     <>
-      <li>Home</li>
-      <li>Solutions</li>
-      <li>Features</li>
-      <li>Contact</li>
+      <MyNavLink href={"/"}>Home</MyNavLink>
+      <MyNavLink href={"/solution"}>Solutions</MyNavLink>
+      <MyNavLink href={"/features"}>Features</MyNavLink>
+      <MyNavLink href={"/contact"}>Contact</MyNavLink>
     </>
   );
 
   return (
-    <nav className="sticky top-0 z-40 w-full border-b border-separator bg-background/70 backdrop-blur-lg">
+    <nav className="sticky top-0 z-40 w-full bg-[#e6eeff80] border-b border-[#0055FF]  backdrop-blur-lg">
       <header className="max-w-330 mx-auto flex py-3 items-center justify-between px-3">
         <div className="flex items-center gap-4">
           <button
@@ -49,13 +53,23 @@ const Navbar = () => {
             </svg>
           </button>
 
-          <div>Logo</div>
+          <div>
+            <Link href={"/"}>
+              <Image
+                src={Logo}
+                alt="logo"
+                width={100}
+                height={100}
+                className="object-cover"
+              ></Image>
+            </Link>
+          </div>
         </div>
 
         <ul className="hidden items-center gap-4 md:flex">{links}</ul>
 
-        <Button size="sm" className={""}>
-          Book
+        <Button size="sm" className={"bg-[#00194c] rounded-md"}>
+          Book Now
         </Button>
       </header>
       {isMenuOpen && (
