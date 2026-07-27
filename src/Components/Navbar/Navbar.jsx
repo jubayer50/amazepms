@@ -13,7 +13,7 @@ const Navbar = () => {
   const links = (
     <>
       <MyNavLink href={"/"}>Home</MyNavLink>
-      <MyNavLink href={"/solution"}>Solutions</MyNavLink>
+      <MyNavLink href={"/solutions"}>Solutions</MyNavLink>
       <MyNavLink href={"/features"}>Features</MyNavLink>
       <MyNavLink href={"/contact"}>Contact</MyNavLink>
     </>

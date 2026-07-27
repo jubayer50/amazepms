@@ -11,6 +11,23 @@ const Banner = () => {
       {/* Background Glow */}
       <div className="absolute left-1/2 top-0 max-h-125 h-full max-w-125 w-full -translate-x-1/2 rounded-full bg-blue-600/20 blur-[120px]" />
 
+      {/* Grid Pattern */}
+      <div
+        className="absolute inset-0 opacity-[0.04]"
+        style={{
+          backgroundImage: `
+      linear-gradient(to right, #0055FF 1px, transparent 1px),
+      linear-gradient(to bottom, #0055FF 1px, transparent 1px)
+    `,
+          backgroundSize: "70px 70px",
+        }}
+      />
+
+      {/* Left Glow */}
+      <div className="absolute -left-32 top-20 h-96 w-96 rounded-full bg-[#0055FF]/10 blur-[140px]" />
+
+      {/* Right Glow */}
+      <div className="absolute right-0 top-40 h-80 w-80 rounded-full bg-cyan-400/10 blur-[140px]" />
       <div className="max-w-330 mx-auto flex flex-col items-center justify-between gap-26 px-3 py-24 lg:flex-row">
         {/* ================= Left ================= */}
 
