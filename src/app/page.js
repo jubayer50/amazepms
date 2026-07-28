@@ -1,5 +1,6 @@
 import Banner from "@/Components/Banner/Banner";
 import Clients from "@/Components/Clients/Clients";
+import FeatureShowcase from "@/Components/FeatureShowcase/FeatureShowcase";
 import React from "react";
 
 const HomePage = () => {
@@ -8,6 +9,8 @@ const HomePage = () => {
       <Banner></Banner>
 
       <Clients></Clients>
+
+      <FeatureShowcase></FeatureShowcase>
     </div>
   );
 };

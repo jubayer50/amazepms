@@ -88,7 +88,7 @@ const Clients = () => {
           {logos.map((logo, index) => (
             <div
               key={index}
-              className="mx-3 md:mx-6 flex w-28 h-18 p-2 items-center justify-center rounded-md border bg-[#082763] transition-all duration-300 border-[#0055FF] hover:bg-[#0A2E77] overflow-hidden"
+              className="mx-3 md:mx-6 flex w-28 h-18 p-2 items-center justify-center rounded-md border bg-[#082763] transition-all duration-300 border-[#0055FF80] hover:bg-[#0A2E77] overflow-hidden"
             >
               <Image
                 src={logo.image}

@@ -41,7 +41,7 @@ const Footer = () => {
         {/* CTA */}
 
         <div className="mx-auto max-w-330 px-3 pt-20">
-          <div className="rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl px-8 py-14 text-center">
+          <div className="rounded-xl border border-[#0055FF80] bg-white/5 backdrop-blur-xl px-8 py-14 text-center">
             <h2 className="text-4xl font-bold">
               Ready to Simplify Property Management?
             </h2>
