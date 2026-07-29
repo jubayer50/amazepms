@@ -14,8 +14,8 @@ const Navbar = () => {
     <>
       <MyNavLink href={"/"}>Home</MyNavLink>
       <MyNavLink href={"/services"}>Services</MyNavLink>
-      <MyNavLink href={"/features"}>Features</MyNavLink>
-      <MyNavLink href={"/contact"}>Contact</MyNavLink>
+      <MyNavLink href={"/recruitments"}>Recruitments</MyNavLink>
+      <MyNavLink href={"/about"}>About Us</MyNavLink>
     </>
   );
 

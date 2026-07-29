@@ -17,7 +17,7 @@ const TestimonialCard = ({ testimonial, active = false }) => {
         duration: 0.4,
         ease: "easeOut",
       }}
-      className="w-[420px] shrink-0"
+      className="w-105 shrink-0"
     >
       <div
         className="
@@ -59,7 +59,7 @@ const TestimonialCard = ({ testimonial, active = false }) => {
         </div>
 
         {/* Review */}
-        <div className="relative z-10 mt-6 min-h-[120px] flex-1">
+        <div className="relative z-10 mt-6 min-h-30 flex-1">
           <p className="line-clamp-5 text-[15px] leading-7 text-white/75">
             {review}
           </p>
