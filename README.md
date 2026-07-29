@@ -1,36 +1,229 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amaze PMS - Modern Corporate Website
 
-## Getting Started
+A modern, responsive, and user-friendly corporate website redesign for **Amaze PMS (Property Management Services)** built with **Next.js**, **HeroUI**, **Tailwind CSS**, and **Motion**.
 
-First, run the development server:
+The project focuses on creating a clean, professional, and engaging user experience while maintaining the company's brand identity and showcasing its services in a modern way.
+
+---
+
+# 🌐 Live Demo
+
+old one
+
+> https://www.amazepms.com/index.html
+
+new one
+
+> https://amazepms-psi.vercel.app/
+
+---
+
+# Project Purpose
+
+The primary goal of this project is to redesign the existing Amaze PMS website with a modern user interface and improved user experience.
+
+The previous website had an outdated design, inconsistent layouts, and limited responsiveness. This redesign focuses on:
+
+- Modern Corporate UI
+- Better User Experience (UX)
+- Fully Responsive Layout
+- Clean Information Architecture
+- Improved Visual Hierarchy
+- Smooth Animations
+- Reusable Component-Based Structure
+- Professional Brand Presentation
+
+---
+
+# Why We Redesigned This Website
+
+The redesign was planned with the following objectives:
+
+- Improve the overall visual appearance.
+- Make the website fully responsive across all devices.
+- Organize content into reusable components.
+- Improve navigation and readability.
+- Create a modern corporate design.
+- Enhance user engagement with subtle animations.
+- Increase maintainability through reusable React components.
+- Follow current UI/UX best practices.
+
+---
+
+# ✨ Features
+
+- Modern Responsive Design
+- Beautiful Hero Sections
+- Animated UI using Motion
+- Interactive Service Sections
+- Recruitment Information Page
+- About Company Page
+- Professional Gallery
+- Google Map Integration
+- Contact Information Section
+- Reusable Components
+- Optimized Images
+- Mobile Friendly
+- SEO Friendly Structure
+
+---
+
+# Pages
+
+- Home
+- About
+- Services
+- Recruitment
+- Contact
+
+---
+
+# Technologies Used
+
+### Frontend
+
+- Next.js
+- React.js
+- JavaScript (ES6+)
+
+### Styling
+
+- Tailwind CSS
+- HeroUI
+
+### Animation
+
+- Framer motion
+
+### Icons
+
+- React Icons
+
+### Image Optimization
+
+- Next.js Image Component
+
+---
+
+# 📦 NPM Packages Used
+
+```bash
+react-countup
+@heroui/react
+motion
+react-icons
+```
+
+---
+
+# Project Structure
+
+```text
+app/
+│
+├── about/
+├── services/
+├── recruitment/
+├── contact/
+│
+components/
+│
+├── Home/
+├── About/
+├── Recruitment/
+├── Services/
+├── Shared/
+│
+public/
+│
+styles/
+│
+package.json
+```
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/jubayer50/amazepms.git
+```
+
+Go to the project directory
+
+```bash
+cd amazepms
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+Start development server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+``bash
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Responsive Design
 
-## Deploy on Vercel
+The website is optimized for:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Mobile
+- Tablet
+- Laptop
+- Desktop
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# Design Principles
+
+The website was redesigned following these principles:
+
+- Minimal Design
+- Corporate Branding
+- Modern UI
+- Better Readability
+- Smooth User Experience
+- Consistent Color Palette
+- Component-Based Architecture
+- Responsive Layout
+- Accessibility Friendly
+
+---
+
+# Main Sections
+
+### Home
+
+- Hero Banner
+- Services
+- Clients
+- Testimonials
+- CTA
+- Footer
+
+### About
+
+- Company Overview
+- Mission, Vision & Values
+- Gallery
+- Office Location
