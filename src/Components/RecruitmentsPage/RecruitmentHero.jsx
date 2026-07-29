@@ -31,7 +31,7 @@ const RecruitmentHero = () => {
 
           <h1 className="mt-3 text-3xl font-bold leading-tight text-white md:text-5xl">
             Hire the Right People <br />
-            <span className="text-[#0055FF]">For Your Business</span>
+            <span className="text-[#709df7]">For Your Business</span>
           </h1>
 
           <p className="mt-3  text-gray-200">

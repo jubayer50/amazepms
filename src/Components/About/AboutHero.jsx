@@ -33,7 +33,7 @@ const AboutHero = () => {
           {/* Heading */}
           <h1 className="mt-3 text-4xl font-bold leading-tight text-white md:text-5xl">
             Delivering Reliable
-            <span className="block text-[#0055FF]">
+            <span className="block text-[#709df7]">
               Facility Management Solutions
             </span>
           </h1>
