@@ -15,7 +15,7 @@ const RecruitmentHero = () => {
       }}
     >
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-linear-to-r from-[#021525]/80 via-[#021525]/70 to-[#021525]/40" />
+      <div className="absolute inset-0 bg-linear-to-r from-[#00194c]/65  to-[#00194c]/55" />
 
       {/* Content */}
       <div className="relative mx-auto w-full max-w-330 px-4">
@@ -25,7 +25,7 @@ const RecruitmentHero = () => {
           transition={{ duration: 0.7 }}
           className="max-w-2xl mx-auto text-center"
         >
-          <span className="inline-block rounded-full border border-blue-500/30 bg-blue-500/10 px-4 py-2 text-sm font-medium text-blue-400">
+          <span className="inline-block rounded-full border border-[#0055FF] bg-[#0055FF20] px-3 py-1 text-sm font-medium text-white">
             Professional Recruitment Services
           </span>
 
@@ -34,7 +34,7 @@ const RecruitmentHero = () => {
             <span className="text-[#0055FF]">For Your Business</span>
           </h1>
 
-          <p className="mt-3  text-gray-300">
+          <p className="mt-3  text-gray-200">
             We help organizations recruit skilled, verified, and reliable
             professionals through a streamlined hiring process, ensuring the
             right talent for every role.

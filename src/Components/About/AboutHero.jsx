@@ -15,7 +15,7 @@ const AboutHero = () => {
       }}
     >
       {/* Overlay */}
-      <div className="absolute inset-0 bg-linear-to-r from-[#021525]/70  to-[#021525]/60" />
+      <div className="absolute inset-0 bg-linear-to-r from-[#00194c]/60  to-[#00194c]/50" />
 
       {/* Content */}
       <div className="relative mx-auto w-full max-w-330 px-4 text-center">
@@ -26,14 +26,14 @@ const AboutHero = () => {
           className=""
         >
           {/* Badge */}
-          <span className="inline-block rounded-full border border-[#4C7DFF]/30 bg-[#4C7DFF]/10 px-3 py-1 text-sm font-medium text-[#4C7DFF]">
+          <span className="inline-block rounded-full border border-[#0055FF] bg-[#0055FF20] px-3 py-1 text-sm font-medium text-white">
             About Amaze PMS
           </span>
 
           {/* Heading */}
           <h1 className="mt-3 text-4xl font-bold leading-tight text-white md:text-5xl">
             Delivering Reliable
-            <span className="block text-[#4C7DFF]">
+            <span className="block text-[#0055FF]">
               Facility Management Solutions
             </span>
           </h1>
@@ -48,11 +48,11 @@ const AboutHero = () => {
 
           {/* Buttons */}
           <div className="mt-6 flex-wrap gap-4 flex justify-center">
-            <Button className={"bg-[#4C7DFF] rounded-md"}>
+            <Button className={"bg-[#0055FF] rounded-md"}>
               <FaArrowRight /> Contact Us
             </Button>
 
-            <Button className="border rounded-md border-[#4C7DFF] bg-transparent text-white">
+            <Button className="border rounded-md border-[#0055FF] bg-transparent text-white">
               Learn More
             </Button>
           </div>
