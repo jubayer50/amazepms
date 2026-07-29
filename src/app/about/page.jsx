@@ -1,7 +1,9 @@
+import AboutHero from "@/Components/About/AboutHero";
+
 const ContactPage = () => {
   return (
     <div>
-      <h2>Contact page</h2>
+      <AboutHero></AboutHero>
     </div>
   );
 };
